@@ -29,7 +29,8 @@ h1{
 }
 .complete{
     text-decoration: line-through;
-    opacity: .5;
+    opacity: .4;
+   
 }
 .todo-form{
     margin-bottom: 32px;
@@ -59,12 +60,20 @@ h1{
     padding: 16px 22px;
     color:#87dfd6
 }
+.todo-button:hover{
+    border-radius: 0 4px 4px 0;   
+    background:  #fbfd8a ;
+}
 .todo-input.edit{
     border:2px solid black ;
 }
 .todo-button.edit{
     background: #086972 ;
     padding: 16px 22px;
+}
+.todo-button.edit:hover{
+    border-radius: 0 4px 4px 0;   
+    background:  #fbfd8a ;
 }
 .todo-container{
 display: flex;
@@ -100,7 +109,13 @@ width: 90%
     margin-right: 5px;
     color:#fbfd8a;
 }
-
+.delete-icon:hover{
+    color:red;
+}
 .edit-icon{
     color:#fbfd8a ;
+}
+.edit-icon:hover{
+    color:#00FF00
+    ;
 }
